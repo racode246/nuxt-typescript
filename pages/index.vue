@@ -71,6 +71,14 @@ export default Vue.extend({
   components: {
     Logo,
     VuetifyLogo
+  },
+  created() {
+    this.test()
+  },
+  methods: {
+    test() {
+      this.$toast.show('test', { duration: 3000 })
+    }
   }
 })
 </script>

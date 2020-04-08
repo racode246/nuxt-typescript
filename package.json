@@ -24,6 +24,7 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.3.6",
     "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/toast": "^3.3.0",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
